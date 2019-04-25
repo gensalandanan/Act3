@@ -1,0 +1,113 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int Day, Month, Year;
+	
+	cout<<"Enter Day: ";
+	cin>>Day;
+  cout<<"Enter Month: ";
+	cin>>Month;
+	cout<<"Enter Year: ";
+	cin>>Year;
+	
+		switch (Month)
+	{
+	    case 1:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"January "<<Day<<", "<<Year;		
+	        break;
+	    case 2:
+	    	if(Day>28 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"February "<<Day<<", "<<Year;		
+	        break;
+	        
+	    case 3:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"March "<<Day<<", "<<Year;		
+	        break;
+	    case 4:
+	    	if(Day>30 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"April "<<Day<<", "<<Year;		
+	        break;
+	        
+	    case 5:
+	    	if(Day>31|| Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"May "<<Day<<", "<<Year;		
+	        break;
+		case 6:
+	    	if(Day>30 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"June "<<Day<<", "<<Year;		
+	        break;
+	        
+		case 7:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"July "<<Day<<", "<<Year;		
+	        break;
+	        
+		case 8:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"August "<<Day<<", "<<Year;		
+	        break;
+	        
+	    case 9:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"September "<<Day<<", "<<Year;		
+	        break;
+	    
+	    case 10:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"October "<<Day<<", "<<Year;		
+	        break;
+	    case 11:
+	    	if(Day>30 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"November "<<Day<<", "<<Year;		
+	        break;
+	        
+		case 12:
+	    	if(Day>31 || Day<1)
+	    	{
+	    		cout<<"Date is Invalid!!";
+			}
+			cout<<"December "<<Day<<", "<<Year;		
+	        break;
+	        
+	    default: cout<<"Date is Invalid!!";
+	}
+	
+	return 0;
+}
